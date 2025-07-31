@@ -35,3 +35,22 @@ header a:hover {
 .main-header a {
   text-transform: uppercase;
 }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(44, 42, 41);
+}
+footer li {
+  list-style: none;
+}
+
+footer li > a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li > a:hover {
+  text-decoration: underline;
+}
